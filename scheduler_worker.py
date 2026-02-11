@@ -1,11 +1,11 @@
 # scheduler_worker.py
 import time
 import smtplib
-from email.mime.text import MIMEText
-from apscheduler.schedulers.background import BackgroundScheduler
+from email mime text import MIMEText
+from apscheduler schedulers background import BackgroundScheduler
 
 from backend_scrapper import compare_product
-from . import storage
+from import storage
 
 import os
 
@@ -119,4 +119,5 @@ def check_alerts_job():
 # =========================
 # MAIN RUNNER
 # =========================
+
 
