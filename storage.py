@@ -2,8 +2,8 @@ from sqlalchemy.orm import Session
 from datetime import datetime
 from typing import Optional
 
-from .database import SessionLocal
-from .models import Product, PriceHistory, Alert, User, Wishlist
+from database import SessionLocal
+from models import Product, PriceHistory, Alert, User, Wishlist
 
 
 def normalize_query(q: str) -> str:
@@ -279,3 +279,4 @@ def get_wishlist(email: str):
     
     db.close()
     return result
+
