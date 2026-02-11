@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+google-search-results
+python-multipart
+sqlalchemy
+python-dotenv
+psycopg2-binary
+apscheduler
+pandas
+numpy
+requests

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Wishlist - PriceNest</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/wishlist.css" />
+</head>
+
+<body>
+
+    <nav>
+        <h2 onclick="window.location.href='index.html'">PriceNest</h2>
+
+        <div class="nav-links">
+        </div>
+
+        <div class="nav-buttons" id="navButtons"></div>
+    </nav>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2">
+                    <path
+                        d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
+                    </path>
+                </svg>
+                My Wishlist
+            </h1>
+            <p>Track your favorite products and their prices</p>
+        </div>
+
+        <div id="wishlistContainer">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <script src="js/utils.js"></script>
+    <script src="js/wishlist.js"></script>
+
+</body>
+
+</html>
