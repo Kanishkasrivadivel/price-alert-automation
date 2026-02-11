@@ -1,6 +1,6 @@
 from serpapi import GoogleSearch
 import re
-from urllib.parse import urlparse
+from urllib parse import urlparse
 
 import os
 
@@ -188,3 +188,4 @@ def compare_product(user_query: str):
         "query": user_query,
         "results": extract_results(raw)
     }
+
